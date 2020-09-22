@@ -18,7 +18,7 @@ Deploying a simple static webpage on **Surge.sh**
 
 - Next surge will ask for domain name. It will suggest you one but you can have your own but it should end with surge.sh
 
-- If your domain name already exit it will give you an error that domain already exits otherwise it will published your project on specfied domain name.
+- If your domain name already exits it will give you an error that domain already exits otherwise it will published your project on specfied domain name.
 
 - And that is it. Your project is up and running.
 
@@ -32,4 +32,4 @@ Deploying a simple static webpage on **Surge.sh**
 
   - `surge list` command will show all your domains which are hosted on Surge CDN.
 
-  - If you want to delete a domain `surge teardown sampleproject.surge.sh` command will remove domain permanently. If no domain is passed in, Surge will check for a CNAME file to use. Otherwise, it will promt you the domain you would like to teardown.
+  - If you want to delete a domain `surge teardown sampleproject.surge.sh` command will remove domain permanently. If no domain is passed in, Surge will check for a CNAME file to use. Otherwise, it will prompt you the domain you would like to teardown.
