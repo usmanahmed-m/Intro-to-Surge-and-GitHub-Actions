@@ -1,10 +1,10 @@
 # PIAIC-Bootcamp2020-Class1
 
-Deploying a simple static webpage on **Surge.sh**
+Deploying a simple static webpage on **Surge.sh** and CI/CD workflow through GitHub Actions
 
 ---
 
-### How to install Surge and Deploy your Project
+### How to install Surge and deploy your project on Surge
 
 - First ensure you have latest version of [Node.js](https://nodejs.org/en/) installed.
 
@@ -33,3 +33,10 @@ Deploying a simple static webpage on **Surge.sh**
   - `surge list` command will show all your domains which are hosted on Surge CDN.
 
   - If you want to delete a domain `surge teardown sampleproject.surge.sh` command will remove domain permanently. If no domain is passed in, Surge will check for a CNAME file to use. Otherwise, it will prompt you the domain you would like to teardown.
+  
+  
+  ---
+  
+### Configuring CI/CD for your project via GitHub Actions
+
+As we have deployed our project on Surge, now there is a need to automate all the process that you have done, because every time you add a new feature into your project you have to update the project manually by following steps discussed above. `Github Actions` allow us to create a CI/CD (Continuous Integration/ Countinuous Delivery and Deployment) for our project. We can select on which event (push/pull etc) it will trigger actions to update our project. In this way just have to push our project into our repository and github actions will automatically update our project. For more in-depth details check this link [attached](https://github.com/features/actions).
