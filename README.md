@@ -1,6 +1,6 @@
-# PIAIC-Bootcamp2020-Class1
 
-Deploying a simple static webpage on **Surge.sh** and CI/CD workflow through GitHub Actions
+
+### Deploying a simple static webpage on **Surge.sh** and CI/CD workflow through GitHub Actions
 
 ---
 
